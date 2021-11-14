@@ -1,0 +1,8 @@
+*.ts
+!*.d.ts
+Dockerfile
+
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
