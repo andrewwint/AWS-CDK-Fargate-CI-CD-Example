@@ -4,5 +4,5 @@ import * as cdk from '@aws-cdk/core';
 import { Ec2InstanceStack } from '../lib/ec2-instance-stack';
 
 const app = new cdk.App();
-const REGION = { account: '790768631355', region: 'us-east-1' }
+const REGION = { account: '123345890-FAKE', region: 'us-east-1' }
 new Ec2InstanceStack(app, 'Ec2InstanceStack', { env: REGION });
